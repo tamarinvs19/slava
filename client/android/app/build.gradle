@@ -42,3 +42,9 @@ android {
 flutter {
     source = "../.."
 }
+
+sourceSets {
+    main {
+        jniLibs.srcDirs = ['src/main/jniLibs']
+    }
+}
